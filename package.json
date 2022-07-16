@@ -1,0 +1,32 @@
+{
+  "name": "transforming-wrapper",
+  "version": "1.0.0",
+  "description": "Intercept and modify the values of object properties",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/",
+    "src/"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/telinc1/transforming-wrapper.git"
+  },
+  "author": "Telinc1",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/telinc1/transforming-wrapper/issues"
+  },
+  "homepage": "https://github.com/telinc1/transforming-wrapper#readme",
+  "devDependencies": {
+    "@types/mocha": "^9.1.1",
+    "@types/node": "^18.0.5",
+    "mocha": "^10.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  }
+}
